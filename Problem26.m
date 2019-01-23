@@ -3,11 +3,9 @@
  
 function tf = is_it_odd(n)
     tf = false;
-    b = mod(n, 2);
-    if b 
+    if mod(n, 2) == 0 
         tf = false;
     else
         tf = true;
     end
   end
-  
